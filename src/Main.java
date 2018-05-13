@@ -11,6 +11,7 @@ public class Main {
 		HashMap<String, Object> readObject = (HashMap<String, Object>) ois.readObject();
 		ois.close();
 		System.out.println(readObject);
+		System.out.println("Hello World");
 	}
 
 }
